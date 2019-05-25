@@ -1,0 +1,11 @@
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.Applet.*;
+public class calc extends Applet implements ActionListener
+{
+Label l1,l2;
+TextField t1,t2,t3;
+Button add1,sub,mul,div;
+public void init()
+{
+l1=new 
